@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="firebaseLogin">
+<head>
+	<title>Firebase Login</title>
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div ng-view></div>
+
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" async></script>
+	<!-- Angular -->
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+	<!-- Firebase -->
+	<script type="text/javascript" src="//cdn.firebase.com/js/client/1.1.0/firebase.js"></script>
+	<script type="text/javascript" src="//cdn.firebase.com/libs/angularfire/0.8.2/angularfire.min.js"></script>
+	<!-- App Init -->
+	<script type="text/javascript" src="app.js"></script>
+	<!-- Controllers -->
+	<script type="text/javascript" src="LoginCtrl.js"></script>
+	<script type="text/javascript" src="DashboardCtrl.js"></script>
+	<!-- Services -->
+	<script type="text/javascript" src="authService.js"></script>
+	<script type="text/javascript" src="firebaseService.js"></script>
+</body>
+</html>
